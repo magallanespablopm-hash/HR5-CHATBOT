@@ -90,7 +90,7 @@ app.post('/api/chat', async (req, res) => {
         'anthropic-version': '2023-06-01'
       },
       body: JSON.stringify({
-        model: 'claude-3-5-haiku-20241022',
+        model: 'claude-opus-4-5',
         max_tokens: 1000,
         system: SYSTEM_PROMPT,
         messages
